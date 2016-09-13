@@ -1,0 +1,66 @@
+[submodule "bin"]
+	path = bin
+	url = https://github.com/webrtc-uwp/webrtc-uwp-scripts.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/webrtc-uwp/webrtc-uwp.github.io.git
+[submodule "webrtc/xplatform/gyp"]
+	path = webrtc/xplatform/gyp
+	url = https://github.com/webrtc-uwp/gyp.git
+[submodule "webrtc/xplatform/usrsctp"]
+	path = webrtc/xplatform/usrsctp
+	url = https://github.com/webrtc-uwp/usrsctp.git
+[submodule "webrtc/xplatform/webrtc"]
+	path = webrtc/xplatform/webrtc
+	url = https://github.com/webrtc-uwp/webrtc.git
+[submodule "webrtc/xplatform/chromium-pruned"]
+	path = webrtc/xplatform/chromium-pruned
+	url = https://github.com/webrtc-uwp/chromium-pruned.git
+[submodule "webrtc/xplatform/opus"]
+	path = webrtc/xplatform/opus
+	url = https://github.com/webrtc-uwp/opus.git
+[submodule "webrtc/xplatform/openmax"]
+	path = webrtc/xplatform/openmax
+	url = https://github.com/webrtc-uwp/openmax.git
+[submodule "webrtc/xplatform/libyuv"]
+	path = webrtc/xplatform/libyuv
+	url = https://github.com/webrtc-uwp/libyuv.git
+[submodule "webrtc/xplatform/libvpx"]
+	path = webrtc/xplatform/libvpx
+	url = https://github.com/webrtc-uwp/libvpx.git
+[submodule "webrtc/xplatform/libsrtp"]
+	path = webrtc/xplatform/libsrtp
+	url = https://github.com/webrtc-uwp/libsrtp.git
+[submodule "webrtc/xplatform/libjpeg_turbo"]
+	path = webrtc/xplatform/libjpeg_turbo
+	url = https://github.com/webrtc-uwp/libjpeg_turbo.git
+[submodule "webrtc/xplatform/jsoncpp"]
+	path = webrtc/xplatform/jsoncpp
+	url = https://github.com/webrtc-uwp/jsoncpp.git
+[submodule "webrtc/xplatform/googletest"]
+	path = webrtc/xplatform/googletest
+	url = https://github.com/webrtc-uwp/googletest.git
+[submodule "webrtc/xplatform/gflags"]
+	path = webrtc/xplatform/gflags
+	url = https://github.com/webrtc-uwp/gflags.git
+[submodule "webrtc/xplatform/boringssl"]
+	path = webrtc/xplatform/boringssl
+	url = https://github.com/webrtc-uwp/boringssl.git
+[submodule "shared/windows/samples/PeerCC"]
+	path = shared/windows/samples/PeerCC
+	url = https://github.com/webrtc-uwp/PeerCC.git
+[submodule "shared/windows/ChatterBox"]
+	path = shared/windows/ChatterBox
+	url = https://github.com/webrtc-uwp/ChatterBox.git
+[submodule "webrtc/xplatform/googlemock"]
+	path = webrtc/xplatform/googlemock
+	url = https://chromium.googlesource.com/external/googlemock
+[submodule "webrtc/xplatform/yasm/binaries"]
+	path = webrtc/xplatform/yasm/binaries
+	url = https://chromium.googlesource.com/chromium/deps/yasm/binaries
+[submodule "webrtc/xplatform/yasm/patched-yasm"]
+	path = webrtc/xplatform/yasm/patched-yasm
+	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+[submodule "webrtc/windows/wrapper"]
+	path = webrtc/windows/wrapper
+	url = https://github.com/webrtc-uwp/webrtc-wrapper-uwp.git
