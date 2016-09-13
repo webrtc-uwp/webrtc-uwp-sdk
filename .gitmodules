@@ -61,3 +61,6 @@
 [submodule "webrtc/windows/wrapper"]
 	path = webrtc/windows/wrapper
 	url = https://github.com/webrtc-uwp/webrtc-wrapper-uwp.git
+[submodule "shared/windows/samples/ChatterBox"]
+	path = shared/windows/samples/ChatterBox
+	url = https://github.com/webrtc-uwp/ChatterBox.git
