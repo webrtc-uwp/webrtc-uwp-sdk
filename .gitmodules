@@ -49,9 +49,6 @@
 [submodule "shared/windows/samples/PeerCC"]
 	path = shared/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
-[submodule "shared/windows/ChatterBox"]
-	path = shared/windows/ChatterBox
-	url = https://github.com/webrtc-uwp/ChatterBox.git
 [submodule "webrtc/xplatform/googlemock"]
 	path = webrtc/xplatform/googlemock
 	url = https://chromium.googlesource.com/external/googlemock
