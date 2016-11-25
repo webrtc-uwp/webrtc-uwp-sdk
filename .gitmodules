@@ -55,6 +55,3 @@
 [submodule "webrtc/xplatform/yasm/patched-yasm"]
 	path = webrtc/xplatform/yasm/patched-yasm
 	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
-[submodule "webrtc/windows/wrapper"]
-	path = webrtc/windows/wrapper
-	url = https://github.com/webrtc-uwp/webrtc-wrapper-uwp.git
