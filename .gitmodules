@@ -58,3 +58,9 @@
 [submodule "webrtc/xplatform/winsdk_samples_v71"]
 	path = webrtc/xplatform/winsdk_samples_v71
 	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
+[submodule "common/windows/samples/PeerCC"]
+	path = common/windows/samples/PeerCC
+	url = https://github.com/webrtc-uwp/PeerCC.git
+[submodule "common/windows/samples/ChatterBox"]
+	path = common/windows/samples/ChatterBox
+	url = https://github.com/webrtc-uwp/ChatterBox.git
