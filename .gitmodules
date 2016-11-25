@@ -55,3 +55,6 @@
 [submodule "webrtc/xplatform/yasm/patched-yasm"]
 	path = webrtc/xplatform/yasm/patched-yasm
 	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+[submodule "webrtc/xplatform/winsdk_samples_v71"]
+	path = webrtc/xplatform/winsdk_samples_v71
+	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
