@@ -46,9 +46,6 @@
 [submodule "webrtc/xplatform/boringssl"]
 	path = webrtc/xplatform/boringssl
 	url = https://github.com/webrtc-uwp/boringssl.git
-[submodule "shared/windows/samples/PeerCC"]
-	path = shared/windows/samples/PeerCC
-	url = https://github.com/webrtc-uwp/PeerCC.git
 [submodule "webrtc/xplatform/googlemock"]
 	path = webrtc/xplatform/googlemock
 	url = https://chromium.googlesource.com/external/googlemock
@@ -61,6 +58,3 @@
 [submodule "webrtc/windows/wrapper"]
 	path = webrtc/windows/wrapper
 	url = https://github.com/webrtc-uwp/webrtc-wrapper-uwp.git
-[submodule "shared/windows/samples/ChatterBox"]
-	path = shared/windows/samples/ChatterBox
-	url = https://github.com/webrtc-uwp/ChatterBox.git
