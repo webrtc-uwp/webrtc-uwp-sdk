@@ -67,3 +67,6 @@
 [submodule "webrtc/windows"]
 	path = webrtc/windows
 	url = https://github.com/webrtc-uwp/webrtc-windows.git
+[submodule "common/windows/samples/AppRTC"]
+	path = common/windows/samples/AppRTC
+	url = https://github.com/webrtc-uwp/AppRTC.git
