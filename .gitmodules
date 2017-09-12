@@ -48,7 +48,7 @@
 	url = https://github.com/webrtc-uwp/boringssl.git
 [submodule "webrtc/xplatform/googlemock"]
 	path = webrtc/xplatform/googlemock
-	url = https://chromium.googlesource.com/external/googlemock
+url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/yasm/binaries"]
 	path = webrtc/xplatform/yasm/binaries
 	url = https://chromium.googlesource.com/chromium/deps/yasm/binaries
