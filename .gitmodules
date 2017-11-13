@@ -12,7 +12,8 @@
 	url = https://github.com/webrtc-uwp/usrsctp.git
 [submodule "webrtc/xplatform/webrtc"]
 	path = webrtc/xplatform/webrtc
-	url = https://github.com/webrtc-uwp/webrtc.git
+	url = https://github.com/navrkald/zzz-obsolete.webrtc.git
+	branch = UWP_decibel_fullscale
 [submodule "webrtc/xplatform/chromium-pruned"]
 	path = webrtc/xplatform/chromium-pruned
 	url = https://github.com/webrtc-uwp/chromium-pruned.git
@@ -60,13 +61,15 @@ url=https://github.com/webrtc-uwp/googlemock.git
 	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
-	url = https://github.com/webrtc-uwp/PeerCC.git
+	url = https://github.com/navrkald/PeerCC.git
+	branch = decibel_fullscale
 [submodule "common/windows/samples/ChatterBox"]
 	path = common/windows/samples/ChatterBox
 	url = https://github.com/webrtc-uwp/ChatterBox.git
 [submodule "webrtc/windows"]
 	path = webrtc/windows
-	url = https://github.com/webrtc-uwp/webrtc-windows.git
+	url = https://github.com/navrkald/webrtc-windows.git
+	branch = decibelFullScale_and_manual_microphone_control
 [submodule "common/windows/samples/AppRTC"]
 	path = common/windows/samples/AppRTC
 	url = https://github.com/webrtc-uwp/AppRTC.git
