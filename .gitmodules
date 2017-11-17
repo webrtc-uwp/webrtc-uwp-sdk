@@ -10,9 +10,6 @@
 [submodule "webrtc/xplatform/usrsctp"]
 	path = webrtc/xplatform/usrsctp
 	url = https://github.com/webrtc-uwp/usrsctp.git
-[submodule "webrtc/xplatform/webrtc"]
-	path = webrtc/xplatform/webrtc
-	url=https://github.com/webrtc-uwp/zzz-obsolete.webrtc.git
 [submodule "webrtc/xplatform/chromium-pruned"]
 	path = webrtc/xplatform/chromium-pruned
 	url = https://github.com/webrtc-uwp/chromium-pruned.git
