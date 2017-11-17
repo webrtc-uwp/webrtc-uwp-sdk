@@ -76,3 +76,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/apple"]
 	path = webrtc/apple
 	url = https://github.com/webrtc-uwp/webrtc-apple.git
+[submodule "webrtc/xplatform/webrtc"]
+	path = webrtc/xplatform/webrtc
+	url = https://github.com/webrtc-uwp/webrtc.git
