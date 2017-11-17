@@ -79,3 +79,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/gflags-build"]
 	path = webrtc/xplatform/gflags-build
 	url = https://github.com/webrtc-uwp/gflags-build.git
+[submodule "webrtc/apple"]
+	path = webrtc/apple
+	url = https://github.com/webrtc-uwp/webrtc-apple.git
