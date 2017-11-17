@@ -79,3 +79,15 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/webrtc"]
 	path = webrtc/xplatform/webrtc
 	url = https://github.com/webrtc-uwp/webrtc.git
+[submodule "webrtc/xplatform/chromium/base"]
+	path = webrtc/xplatform/chromium/base
+	url = https://github.com/webrtc-uwp/chromium-base.git
+[submodule "webrtc/xplatform/chromium/build"]
+	path = webrtc/xplatform/chromium/build
+	url = https://github.com/webrtc-uwp/chromium-build.git
+[submodule "webrtc/xplatform/chromium/testing"]
+	path = webrtc/xplatform/chromium/testing
+	url = https://github.com/webrtc-uwp/chromium-testing
+[submodule "webrtc/xplatform/chromium/tools"]
+	path = webrtc/xplatform/chromium/tools
+	url = https://github.com/webrtc-uwp/chromium-tools.git
