@@ -35,3 +35,24 @@ This script will prepare environment but it won't build webrtc projects. In this
 3) Now you can build winrt libraries for WebRtc and deploy sample apps ChatterBox and PeerCC.
 
 ====
+
+Known issues:
+----------------------------
+* ARM is currently not working.
+* Choosing audio playback / recording devices not working.
+
+Troubleshooting:
+----------------------------
+ * The first project must be built WebRtc.Builder.
+ * Checkout windows line ending in "webrtc-uwp-sdk \ bin" otherwise prepare and build scripts (bat files) will not work. And commit with unix line endings. (git config - global core.autocrlf true - checkout windows, commit unix)
+ * Webrtc requires VS 2015 Win 10 SDK 14. *
+ * There is no build dependency when you change WebRTC sources (not meaning UWP wrapper) so you have to run rebuild on WebRtc.Builder manually.
+  * When you want to build your own project based on WebRTC UWP SKD you have to add to your main executable project these lines:
+  `` `
+      <Content Include = "<your relative path prefix eg .. \ .. \ .. \ .. \ .. \> \ webrtc \ xplatform \ webrtc \ WEBRTC_BUILD \ webrtc \ $ (Configuration) dll ">
+      <Link> boringssl.dll </ link>
+    </ Content>
+    <Content Include = "<your relative path prefix eg .. \ .. \ .. \ .. \ .. \> \ webrtc \ xplatform \ webrtc \ WEBRTC_BUILD \ webrtc \ $ (Configuration) dll ">
+      <Link> protobuf_lite.dll </ link>
+    </ Content>
+  `` `
