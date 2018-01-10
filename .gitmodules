@@ -94,3 +94,12 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/chromium/third_party"]
 	path = webrtc/xplatform/chromium/third_party
 	url = https://github.com/webrtc-uwp/chromium-third_party
+[submodule "webrtc/linux"]
+	path = webrtc/linux
+	url = https://github.com/webrtc-uwp/webrtc-linux.git
+[submodule "webrtc/xplatform/llvm/libcxx"]
+	path = webrtc/xplatform/llvm/libcxx
+	url = https://github.com/webrtc-uwp/libcxx.git
+[submodule "webrtc/xplatform/llvm/libcxxabi"]
+	path = webrtc/xplatform/llvm/libcxxabi
+	url = https://github.com/webrtc-uwp/libcxxabi.git
