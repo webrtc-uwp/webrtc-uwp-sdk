@@ -100,3 +100,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/chromium/third_party"]
 	path = webrtc/xplatform/chromium/third_party
 	url = https://github.com/webrtc-uwp/chromium-third_party
+[submodule "webrtc/xplatform/webrtc"]
+	path = webrtc/xplatform/webrtc
+	url = https://github.com/webrtc-uwp/webrtc.git
