@@ -1,5 +1,4 @@
-INSTRUCTIONS
-=======
+# Instructions
 
 From your terminal, recursively clone this repo to obtain all the source code needed to build WebRTC for UWP:
 git clone --recursive https://github.com/webrtc-uwp/webrtc-uwp-sdk.git
@@ -14,12 +13,14 @@ Directory structure:
 - webrtc-uwp-sdk\docs			contains documentation
 
 
-How to Build:
+Prerequisites:
+- Visual Studio 2017 (latest tested version tested 15.6)
+- Windows SDK 14393 (available from archive page https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
+- The minimum required Windows version to deploy apps is 1607 / Build 10.0.14393 / Anniversary Update
 
-WINDOWS BUILD :
-----------------------------
+## Windows Build
 
-1) Run prepare script, from your terminal:
+1. Run prepare script, from your terminal:
 <br />
 <pre>
 <code>
@@ -30,8 +31,6 @@ bin\prepare.bat
 <br />
 This script will prepare environment but it won't build webrtc projects. In this case webrtc project will be built from Visual Studio once you try to build Org.WebRtc.
 
-2) From VS2015, load webrtc\windows\solutions\WebRtc.sln for WebRtc development.
+2. From VS2017, load webrtc\windows\solutions\WebRtc.sln for WebRtc development.
 
-3) Now you can build winrt libraries for WebRtc and deploy sample apps ChatterBox and PeerCC.
-
-====
+3. Now you can build UWP libraries for WebRtc and deploy sample app PeerCC.
