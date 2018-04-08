@@ -16,7 +16,13 @@ Directory structure:
 Prerequisites:
 - Visual Studio 2017 (latest tested version tested 15.6)
 - Windows SDK 14393 (available from archive page https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
+- When installing the SDK, include the feature "Debugging Tools for Windows" which is required to run prepare.bat.  Note that the SDK install as part of Visual Studio does not include this feature.
 - The minimum required Windows version to deploy apps is 1607 / Build 10.0.14393 / Anniversary Update
+
+Known Issues:
+- ARM is currently unsupported (but under development).  For ARM support, use M54 or earlier releases.
+- Audio device selection was removed from the Google WebRTC APIs, and is therefore no longer supported here.  Playback occurs on the default device as specified by Windows.
+- Due to the Windows limit on path length it is recommended to clone close to the root.  C:\repos\my-branch is known to work, longer paths may fail.
 
 ## Windows Build
 
