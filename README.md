@@ -13,6 +13,12 @@ Directory structure:
 - webrtc-uwp-sdk\webrtc    		contains WebRtc code
 - webrtc-uwp-sdk\docs			contains documentation
 
+Prerequisites:
+
+- Visual Studio 2017 (latest tested version tested 15.6)
+- Windows SDK 16299 (available from archive page https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
+- When installing the SDK, include the feature "Debugging Tools for Windows" which is required to run prepare.bat. Note that the SDK install as part of Visual Studio does not include this feature.
+
 
 How to Build:
 
