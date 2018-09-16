@@ -106,3 +106,12 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/cryptopp"]
 	path = webrtc/xplatform/cryptopp
 	url = https://github.com/webrtc-uwp/cryptopp.git
+[submodule "webrtc/xplatform/icu"]
+	path = webrtc/xplatform/icu
+	url = https://github.com/webrtc-uwp/icu.git
+[submodule "webrtc/xplatform/templates"]
+	path = webrtc/xplatform/templates
+	url = https://github.com/webrtc-uwp/templates.git
+[submodule "webrtc/xplatform/webrtc-apis"]
+	path = webrtc/xplatform/webrtc-apis
+	url = https://github.com/webrtc-uwp/webrtc-apis.git
