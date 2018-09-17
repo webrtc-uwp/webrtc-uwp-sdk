@@ -1,6 +1,6 @@
 [submodule "bin"]
 	path = bin
-	url = https://github.com/webrtc-uwp/webrtc-uwp-scripts.git
+	url = https://github.com/webrtc-uwp/webrtc-bin.git
 [submodule "docs"]
 	path = docs
 	url = https://github.com/webrtc-uwp/webrtc-uwp.github.io.git
