@@ -103,3 +103,18 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/webrtc"]
 	path = webrtc/xplatform/webrtc
 	url = https://github.com/webrtc-uwp/webrtc.git
+[submodule "webrtc/xplatform/cryptopp"]
+	path = webrtc/xplatform/cryptopp
+	url = https://github.com/webrtc-uwp/cryptopp.git
+[submodule "webrtc/xplatform/icu"]
+	path = webrtc/xplatform/icu
+	url = https://github.com/webrtc-uwp/icu.git
+[submodule "webrtc/xplatform/webrtc-apis"]
+	path = webrtc/xplatform/webrtc-apis
+	url = https://github.com/webrtc-uwp/webrtc-apis.git
+[submodule "webrtc/xplatform/zsLib"]
+	path = webrtc/xplatform/zsLib
+	url = https://github.com/webrtc-uwp/zsLib.git
+[submodule "webrtc/xplatform/zsLib-eventing"]
+	path = webrtc/xplatform/zsLib-eventing
+	url = https://github.com/webrtc-uwp/zsLib-eventing.git
