@@ -12,12 +12,12 @@ Directory structure:
 - webrtc-uwp-sdk\webrtc    		contains WebRtc code
 - webrtc-uwp-sdk\docs			contains documentation
 
-
 Prerequisites:
-- Visual Studio 2017 (latest tested version tested 15.6)
-- Windows SDK 14393 (available from archive page https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
-- When installing the SDK, include the feature "Debugging Tools for Windows" which is required to run prepare.bat.  Note that the SDK install as part of Visual Studio does not include this feature.
-- The minimum required Windows version to deploy apps is 1607 / Build 10.0.14393 / Anniversary Update
+
+- Visual Studio 2017 (latest tested version tested 15.8.1)
+- Windows SDK 17134 (available from archive page https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
+- When installing the SDK, include the feature "Debugging Tools for Windows" which is required to run prepare.bat. Note that the SDK install as part of Visual Studio does not include this feature.
+- The minimum required Windows version to deploy apps is 1703 / Build 10.0.15063 / Anniversary Update
 
 Known Issues:
 - ARM is currently unsupported (but under development).  For ARM support, use M54 or earlier releases.
