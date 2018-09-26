@@ -51,7 +51,7 @@ url=https://github.com/webrtc-uwp/googlemock.git
 	url = https://github.com/webrtc-uwp/yasm-patched-yasm.git
 [submodule "webrtc/xplatform/winsdk_samples_v71"]
 	path = webrtc/xplatform/winsdk_samples_v71
-	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
+	url = https://github.com/webrtc-uwp/winsdk_samples_v71.git
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
