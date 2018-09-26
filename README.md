@@ -14,8 +14,9 @@ Directory structure:
 
 Prerequisites:
 
-- Visual Studio 2017 (latest tested version tested 15.8.1)
+- Visual Studio 2017 (latest tested version tested 15.8.1); Community Edition is supported
 - Windows SDK 17134 (available from archive page https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
+- C++/WinRT Visual Studio extension (https://marketplace.visualstudio.com/items?itemName=CppWinRTTeam.cppwinrt101804264)
 - When installing the SDK, include the feature "Debugging Tools for Windows" which is required to run prepare.bat. Note that the SDK install as part of Visual Studio does not include this feature.
 - The minimum required Windows version to deploy apps is 1703 / Build 10.0.15063 / Anniversary Update
 
