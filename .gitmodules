@@ -45,10 +45,10 @@
 url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/yasm/binaries"]
 	path = webrtc/xplatform/yasm/binaries
-	url = https://chromium.googlesource.com/chromium/deps/yasm/binaries
+	url = https://github.com/webrtc-uwp/yasm-binaries.git
 [submodule "webrtc/xplatform/yasm/patched-yasm"]
 	path = webrtc/xplatform/yasm/patched-yasm
-	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+	url = https://github.com/webrtc-uwp/yasm-patched-yasm.git
 [submodule "webrtc/xplatform/winsdk_samples_v71"]
 	path = webrtc/xplatform/winsdk_samples_v71
 	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
