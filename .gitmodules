@@ -121,3 +121,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/zsLib-eventing"]
 	path = webrtc/xplatform/zsLib-eventing
 	url = https://github.com/webrtc-uwp/zsLib-eventing.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/webrtc-uwp/webrtc-scripts.git
