@@ -1,0 +1,8 @@
+# Python
+*.pyc
+
+# Generated
+userdef.py
+
+# Backup
+/Backup
