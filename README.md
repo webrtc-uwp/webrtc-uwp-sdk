@@ -8,10 +8,11 @@ This repository will yield the WebRtc SDK and dependency libraries.
 
 Directory structure:
 
-- webrtc-uwp-sdk\bin          	contains scripts for preparing an environment for the Windows
+- webrtc-uwp-sdk\bin          	(DEPRECATED) contains scripts for preparing an environment for the Windows
 - webrtc-uwp-sdk\common         contains samples applications (ChatterBox and PeerCC)
-- webrtc-uwp-sdk\webrtc    		contains WebRtc code
-- webrtc-uwp-sdk\docs			contains documentation
+- webrtc-uwp-sdk\webrtc    		  contains WebRtc code
+- webrtc-uwp-sdk\docs			      contains documentation
+- webrtc-uwp-sdk\scripts        contains scripts for preparing dev environment, building and creating webrtc nuget package
 
 Prerequisites:
 
@@ -25,19 +26,10 @@ How to Build:
 WINDOWS BUILD :
 ----------------------------
 
-1) Run prepare script, from your terminal:
-<br />
-<pre>
-<code>
-cd webrtc-uwp-sdk
-bin\prepare.bat
-</code>
-</pre>
-<br />
-This script will prepare environment but it won't build webrtc projects. In this case webrtc project will be built from Visual Studio once you try to build Org.WebRtc.
+1) From VS2017, open webrtc\windows\solutions\WebRtc.Universal.sln for WebRtc development.
 
-2) From VS2015, load webrtc\windows\solutions\WebRtc.sln for WebRtc development.
+2) In VS2017 go to Tools > Options > Projects and Solutions > General and uncheck “Allow parallel project initialization”.
 
-3) Now you can build winrt libraries for WebRtc and deploy sample apps ChatterBox and PeerCC.
+3) Now you can build WebRtc Windows Universla library and run PeerCC sample app.
 
 ====
