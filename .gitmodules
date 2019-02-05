@@ -103,6 +103,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/llvm/libcxxabi"]
 	path = webrtc/xplatform/llvm/libcxxabi
 	url = https://github.com/webrtc-uwp/libcxxabi.git
-[submodule "webrtc\\xplatform\\templates"]
-	path = webrtc\\xplatform\\templates
+[submodule "webrtc/xplatform/templates"]
+	path = webrtc/xplatform/templates
 	url = https://github.com/webrtc-uwp/templates.git
