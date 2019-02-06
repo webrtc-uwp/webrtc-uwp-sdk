@@ -11,11 +11,11 @@ variables:
   configuration: release
 
 jobs:
-- job: Prepare
   pool:
     vmImage: 'VS2017-Win2016'
   steps:
   - task: UsePythonVersion@0
+- job: Prepare
     inputs:
       versionSpec: '2.7.14'
       architecture: 'x64'
