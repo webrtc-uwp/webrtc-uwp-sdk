@@ -1,0 +1,44 @@
+# Universal Windows Platform
+# Build a Universal Windows Platform project using Visual Studio.
+# Add steps that test and distribute an app, save build artifacts, and more:
+# https://aka.ms/yaml
+
+trigger:
+- Sergej/20190206-DevOps
+
+pool:
+  vmImage: 'VS2017-Win2016'
+
+variables:
+  target: webrtc
+  platform: winuwp
+  configuration: release
+
+jobs:
+- job: Prepare
+  steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '2.7.14'
+      architecture: 'x64'
+  - script: python $(Build.SourcesDirectory)\scripts\run.py -a prepare -t $(target) -p $(platform) -c $(configuration)
+ 
+- job: Build
+  dependsOn: Prepare
+  condition: succeeded() 
+  strategy:
+    maxParallel: 2
+    matrix:
+      x64:
+        cpu: 'x64'
+      x86:
+        cpu: 'x86'
+  steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '2.7'
+      architecture: 'x64'
+  - script: python $(Build.SourcesDirectory)\scripts\run.py -a build -t $(target) -x $(cpu) -p $(platform) -c $(configuration)
+    
+
+
