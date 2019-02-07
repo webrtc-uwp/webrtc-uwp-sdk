@@ -6,9 +6,6 @@
 trigger:
 - Sergej/20190206-DevOps
 
-pool:
-  vmImage: 'VS2017-Win2016'
-
 variables:
   target: webrtc
   platform: winuwp
@@ -16,6 +13,8 @@ variables:
 
 jobs:
 - job: Prepare
+  pool:
+  vmImage: 'VS2017-Win2016'
   steps:
   - task: UsePythonVersion@0
     inputs:
@@ -24,6 +23,8 @@ jobs:
   - script: python $(Build.SourcesDirectory)\scripts\run.py -a prepare -t $(target) -p $(platform) -c $(configuration)
  
 - job: Build
+  pool:
+  vmImage: 'VS2017-Win2016'
   dependsOn: Prepare
   condition: succeeded() 
   strategy:
