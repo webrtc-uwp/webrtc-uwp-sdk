@@ -14,7 +14,7 @@ variables:
 jobs:
 - job: Prepare
   pool:
-  vmImage: 'VS2017-Win2016'
+    vmImage: 'VS2017-Win2016'
   steps:
   - task: UsePythonVersion@0
     inputs:
@@ -24,7 +24,7 @@ jobs:
  
 - job: Build
   pool:
-  vmImage: 'VS2017-Win2016'
+    vmImage: 'VS2017-Win2016'
   dependsOn: Prepare
   condition: succeeded() 
   strategy:
