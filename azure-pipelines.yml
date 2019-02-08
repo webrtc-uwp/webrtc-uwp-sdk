@@ -3,8 +3,8 @@
 # Add steps that test and distribute an app, save build artifacts, and more:
 # https://aka.ms/yaml
 
-trigger:
-- Sergej/20190206-DevOps
+#trigger:
+#- Sergej/20190206-DevOps
 
 variables:
   target: webrtc
