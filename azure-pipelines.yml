@@ -9,19 +9,26 @@ trigger:
 variables:
   target: webrtc
   platform: winuwp
-  configuration: release
 
 jobs:
 - job: Build
   pool:
     vmImage: 'VS2017-Win2016'
   strategy:
-    maxParallel: 2
+    maxParallel: 4
     matrix:
       x64:
         cpu: 'x64'
+        configuration: release
       x86:
         cpu: 'x86'
+        configuration: release
+      x64d:
+        cpu: 'x64'
+        configuration: debug
+      x86d:
+        cpu: 'x86'
+        configuration: debug
   steps:
   - task: UsePythonVersion@0
     inputs:
