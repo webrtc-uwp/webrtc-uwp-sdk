@@ -12,6 +12,7 @@ variables:
 
 jobs:
 - job: Build
+  timeoutInMinutes: 0
   pool:
     vmImage: 'VS2017-Win2016'
   strategy:
