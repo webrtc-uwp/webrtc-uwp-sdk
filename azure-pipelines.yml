@@ -37,6 +37,7 @@ jobs:
       architecture: 'x64'
   - script: python $(Build.SourcesDirectory)\scripts\run.py -a prepare -t $(target) -x $(cpu) -p $(platform) -c $(configuration)
   - script: python $(Build.SourcesDirectory)\scripts\run.py -a build -t $(target) -x $(cpu) -p $(platform) -c $(configuration)
+  - script: echo Removing Intermediates  if exist "%Build_SourcesDirectory%\webrtc\windows\solutions\Build\Intermediate" rmdir %Build_SourcesDirectory%\webrtc\windows\solutions\Build\Intermediate /S /Q  if exist "%Build_SourcesDirectory%\webrtc\xplatform\webrtc\out" rmdir %Build_SourcesDirectory%\webrtc\xplatform\webrtc\out /S /Q 
     
 
 
