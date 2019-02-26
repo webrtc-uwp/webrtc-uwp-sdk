@@ -52,9 +52,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
-[submodule "common/windows/samples/ChatterBox"]
-	path = common/windows/samples/ChatterBox
-	url = https://github.com/webrtc-uwp/ChatterBox.git
 [submodule "webrtc/windows"]
 	path = webrtc/windows
 	url = https://github.com/webrtc-uwp/webrtc-windows.git
