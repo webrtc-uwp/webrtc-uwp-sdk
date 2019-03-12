@@ -24,7 +24,11 @@ git clone --recursive https://github.com/webrtc-uwp/webrtc-uwp-sdk
 ## Prerequisites
 
 - Visual Studio 2017 (latest tested version tested 15.9.7); Community Edition is supported
+- Windows SDK 17134 (available from [archive page](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive))
+  - This SDK version is hard coded in the Google source and required to build the WebRTC library.
+  - When installing the SDK, include the feature **Debugging Tools for Windows** which is required by the preparation scripts. Note that the SDK installed as part of Visual Studio does not include this feature.
 - Windows SDK 17763 (available from [archive page](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive))
+  - This SDK version is used by the WebRTC UWP wrappers and required to build the managed code.
   - When installing the SDK, include the feature **Debugging Tools for Windows** which is required by the preparation scripts. Note that the SDK installed as part of Visual Studio does not include this feature.
 - C++/WinRT Visual Studio extension (available from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=CppWinRTTeam.cppwinrt101804264))
 - The minimum required Windows version to deploy apps is 1703 / Build 10.0.15063 / Anniversary Update
@@ -38,6 +42,8 @@ git clone --recursive https://github.com/webrtc-uwp/webrtc-uwp-sdk
 Several build options, including NuGet package creation, are available through command line scripts or Visual Studio.  For more information see the [webrtc-scripts](https://github.com/webrtc-uwp/webrtc-scripts) repo.  The simplest method to build the SDK and PeerCC sample in Visual Studio is described below.
 
 1. Open the solution `webrtc-uwp-sdk\webrtc\windows\solutions\WebRtc.Universal.sln` in Visual Studio
-2. Right click the `PeerConnectionClient.WebRtc` project and choose **Set as Startup Project**
-3. Choose processor architecture
-4. Hit F5
+2. To build whole solution or to build PeerConnectionClient.WebRtc, before native and wrapper libs are built it is necessary to change VS2017 settings (Tools->Options->Project and Solutions->Allow parallel projects initialization uncheck it).
+    - Note this is no longer necessary as of VS 15.9.7
+3. Right click the `PeerConnectionClient.WebRtc` project and choose **Set as Startup Project**
+4. Choose processor architecture
+5. Hit F5
