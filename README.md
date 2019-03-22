@@ -36,6 +36,14 @@ git clone --recursive https://github.com/webrtc-uwp/webrtc-uwp-sdk
 ## Known Issues
 
 - Due to the Windows limit on path length it is recommended to clone close to the root.  `C:\repos\my-branch` is known to work, longer paths may fail.
+- Older issues of Python 2.7.x can fail for unknown reasons.  To resolve:
+  1. Uninstall Python 2.7
+  2. Install Python 2.7.15
+  3. Ensure `C:\Python27` is at the top of the system path
+  4. From a command prompt at `C:\Python27\scripts` run the following:
+     1. `pip install pywin32`
+     2. `python -m pip install --upgrade pip`
+  5. Create a clean clone & attempt to build the repo.
 
 ## Building the SDK
 
