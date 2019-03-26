@@ -40,9 +40,9 @@ git clone --recursive https://github.com/webrtc-uwp/webrtc-uwp-sdk
   1. Uninstall Python 2.7
   2. Install Python 2.7.15
   3. Ensure `C:\Python27` is at the top of the system path
-  4. From a command prompt at `C:\Python27\scripts` run the following:
-     1. `pip install pywin32`
-     2. `python -m pip install --upgrade pip`
+  4. From an Administrator command prompt at `C:\Python27\scripts` run the following:
+     1. `python -m pip install --upgrade pip`
+     2. `pip install pywin32`
   5. Create a clean clone & attempt to build the repo.
 
 ## Building the SDK
