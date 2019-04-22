@@ -60,9 +60,9 @@ Several build options, including NuGet package creation, are available through c
 
 ## Unity build requirements
 
-* Unity version 2018.3.6f1 with IL2CPP Scripting Backend
+* Unity version 2019.1.0f2 or later. Add the following components: Universal Windows Platform Build Support and Windows Build Support (IL2CPP).
 
-## Running Unity Peer Connection Client application on HoloLens device 
+## Running Unity Peer Connection Client application on HoloLens device (or HoloLens simulator) 
 
 1. Open `webrtc\windows\solutions\WebRtcUnity.sln` solution, select x86 platform and build PeerConnectionClientUnityCore project. The build procedure produces WebRTC libraries, WebRTC for UWP wrapper component and deploys WebRTC and Peer Connection Client Core libraries to the Unity project space.
 2. Open Unity project `common\windows\samples\PeerCC\ClientUnity' in Unity Editor
