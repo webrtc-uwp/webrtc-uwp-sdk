@@ -1,6 +1,3 @@
-[submodule "bin"]
-	path = bin
-	url = https://github.com/webrtc-uwp/webrtc-bin.git
 [submodule "docs"]
 	path = docs
 	url = https://github.com/webrtc-uwp/webrtc-uwp.github.io.git
@@ -55,9 +52,6 @@
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
-[submodule "common/windows/samples/ChatterBox"]
-	path = common/windows/samples/ChatterBox
-	url = https://github.com/webrtc-uwp/ChatterBox.git
 [submodule "webrtc/windows"]
 	path = webrtc/windows
 	url = https://github.com/webrtc-uwp/webrtc-windows.git
