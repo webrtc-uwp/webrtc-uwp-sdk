@@ -42,16 +42,16 @@
 	url = https://github.com/webrtc-uwp/boringssl.git
 [submodule "webrtc/xplatform/googlemock"]
 	path = webrtc/xplatform/googlemock
-url=https://github.com/webrtc-uwp/googlemock.git
+	url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/yasm/binaries"]
 	path = webrtc/xplatform/yasm/binaries
-	url = https://chromium.googlesource.com/chromium/deps/yasm/binaries
+	url=https://github.com/webrtc-uwp/yasm-binaries.git
 [submodule "webrtc/xplatform/yasm/patched-yasm"]
 	path = webrtc/xplatform/yasm/patched-yasm
-	url = https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm
+	url=https://github.com/webrtc-uwp/yasm-patched-yasm.git
 [submodule "webrtc/xplatform/winsdk_samples_v71"]
 	path = webrtc/xplatform/winsdk_samples_v71
-	url = https://chromium.googlesource.com/external/webrtc/deps/third_party/winsdk_samples_v71
+	url=https://github.com/webrtc-uwp/winsdk_samples_v71.git
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
@@ -121,3 +121,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/templates"]
 	path = webrtc/xplatform/templates
 	url = https://github.com/webrtc-uwp/templates.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/webrtc-uwp/webrtc-scripts.git
