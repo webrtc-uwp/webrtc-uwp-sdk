@@ -39,16 +39,16 @@
 	url = https://github.com/webrtc-uwp/boringssl.git
 [submodule "webrtc/xplatform/googlemock"]
 	path = webrtc/xplatform/googlemock
-	url=https://github.com/webrtc-uwp/googlemock.git
+url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/yasm/binaries"]
 	path = webrtc/xplatform/yasm/binaries
-	url=https://github.com/webrtc-uwp/yasm-binaries.git
+	url = https://github.com/webrtc-uwp/yasm-binaries.git
 [submodule "webrtc/xplatform/yasm/patched-yasm"]
 	path = webrtc/xplatform/yasm/patched-yasm
-	url=https://github.com/webrtc-uwp/yasm-patched-yasm.git
+	url = https://github.com/webrtc-uwp/yasm-patched-yasm.git
 [submodule "webrtc/xplatform/winsdk_samples_v71"]
 	path = webrtc/xplatform/winsdk_samples_v71
-	url=https://github.com/webrtc-uwp/winsdk_samples_v71.git
+	url = https://github.com/webrtc-uwp/winsdk_samples_v71.git
 [submodule "common/windows/samples/PeerCC"]
 	path = common/windows/samples/PeerCC
 	url = https://github.com/webrtc-uwp/PeerCC.git
@@ -70,18 +70,12 @@
 [submodule "webrtc/apple"]
 	path = webrtc/apple
 	url = https://github.com/webrtc-uwp/webrtc-apple.git
-[submodule "webrtc/linux"]
-	path = webrtc/linux
-	url = https://github.com/webrtc-uwp/webrtc-linux.git
+[submodule "webrtc/xplatform/webrtc"]
+	path = webrtc/xplatform/webrtc
+	url = https://github.com/webrtc-uwp/webrtc.git
 [submodule "webrtc/xplatform/chromium/base"]
 	path = webrtc/xplatform/chromium/base
 	url = https://github.com/webrtc-uwp/chromium-base.git
-[submodule "webrtc/xplatform/llvm/libcxx"]
-	path = webrtc/xplatform/llvm/libcxx
-	url = https://github.com/webrtc-uwp/libcxx.git
-[submodule "webrtc/xplatform/llvm/libcxxabi"]
-	path = webrtc/xplatform/llvm/libcxxabi
-	url = https://github.com/webrtc-uwp/libcxxabi.git
 [submodule "webrtc/xplatform/chromium/build"]
 	path = webrtc/xplatform/chromium/build
 	url = https://github.com/webrtc-uwp/chromium-build.git
@@ -94,15 +88,24 @@
 [submodule "webrtc/xplatform/chromium/third_party"]
 	path = webrtc/xplatform/chromium/third_party
 	url = https://github.com/webrtc-uwp/chromium-third_party
-[submodule "webrtc/xplatform/webrtc"]
-	path = webrtc/xplatform/webrtc
-	url = https://github.com/webrtc-uwp/webrtc.git
+[submodule "webrtc/linux"]
+	path = webrtc/linux
+	url = https://github.com/webrtc-uwp/webrtc-linux.git
+[submodule "webrtc/xplatform/llvm/libcxx"]
+	path = webrtc/xplatform/llvm/libcxx
+	url = https://github.com/webrtc-uwp/libcxx.git
+[submodule "webrtc/xplatform/llvm/libcxxabi"]
+	path = webrtc/xplatform/llvm/libcxxabi
+	url = https://github.com/webrtc-uwp/libcxxabi.git
 [submodule "webrtc/xplatform/cryptopp"]
 	path = webrtc/xplatform/cryptopp
 	url = https://github.com/webrtc-uwp/cryptopp.git
 [submodule "webrtc/xplatform/icu"]
 	path = webrtc/xplatform/icu
 	url = https://github.com/webrtc-uwp/icu.git
+[submodule "webrtc/xplatform/templates"]
+	path = webrtc/xplatform/templates
+	url = https://github.com/webrtc-uwp/templates.git
 [submodule "webrtc/xplatform/webrtc-apis"]
 	path = webrtc/xplatform/webrtc-apis
 	url = https://github.com/webrtc-uwp/webrtc-apis.git
@@ -112,9 +115,6 @@
 [submodule "webrtc/xplatform/zsLib-eventing"]
 	path = webrtc/xplatform/zsLib-eventing
 	url = https://github.com/webrtc-uwp/zsLib-eventing.git
-[submodule "webrtc/xplatform/templates"]
-	path = webrtc/xplatform/templates
-	url = https://github.com/webrtc-uwp/templates.git
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/webrtc-uwp/webrtc-scripts.git
