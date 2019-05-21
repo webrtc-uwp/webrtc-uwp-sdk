@@ -118,3 +118,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/webrtc-uwp/webrtc-scripts.git
+[submodule "webrtc/xplatform/chromium/buildtools"]
+	path = webrtc/xplatform/chromium/buildtools
+	url = https://github.com/webrtc-uwp/chromium-buildtools.git
