@@ -118,3 +118,6 @@ url=https://github.com/webrtc-uwp/googlemock.git
 [submodule "webrtc/xplatform/chromium/buildtools"]
 	path = webrtc/xplatform/chromium/buildtools
 	url = https://github.com/webrtc-uwp/chromium-buildtools.git
+[submodule "webrtc/xplatform/nasm"]
+	path = webrtc/xplatform/nasm
+	url = https://github.com/webrtc-uwp/nasm.git
