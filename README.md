@@ -32,6 +32,7 @@ git clone --recursive https://github.com/webrtc-uwp/webrtc-uwp-sdk
   - When installing the SDK, include the feature **Debugging Tools for Windows** which is required by the preparation scripts. Note that the SDK installed as part of Visual Studio does not include this feature.
 - C++/WinRT Visual Studio extension (available from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=CppWinRTTeam.cppwinrt101804264))
 - The minimum required Windows version to deploy apps is 1703 / Build 10.0.15063 / Anniversary Update
+- Strawberry Perl (Supported perl version can be obrained from http://strawberryperl.com/)
 
 ## Known Issues
 
